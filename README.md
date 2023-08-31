@@ -15,3 +15,48 @@ The project will involve the following tasks:
 
 The ultimate goal of the project is to gain insights from the data sets and communicate these insights to stakeholders using appropriate visualizations and metrics to make informed decisions based on the business questions asked."
 
+
+## Process
+
+1. Import required libraries
+
+2. Read csv file into a dataframe
+ 
+3. Performed EDA & Pre-processing 
+
+- visuaizing data with different charts
+- log transformation of skewed numerical columns
+- scaling prior to feeding into the model
+
+4. Carried out K-Means Clustering
+
+- I dentified optimum number of clusters using Elbow rule
+- created model and fitted it to the data
+- plot clusters
+
+5. Hierarchical Clustering
+
+6. Dimesionality reduction using Principal Component Analysis (PCA)
+
+
+
+## Results
+
+1. The dataset is asymmetrical and right skewed. Correlations amongst the features varies. There are strong positive as well as negative correlations.
+
+3. Most sales are from Region 3. Purchases from channel 1 is ~double of channel 2.
+
+3. The clustering in this dataset is not distinct. There are areas of overlap and the inter-cluster distance is low.
+
+4. All the six numerical features can be reduced to 2 or 3 components that will be representative of the features
+
+
+## Challenges 
+ 
+ Time was a major constraint
+ 
+ 
+ 
+
+
+
